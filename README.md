@@ -1,39 +1,102 @@
 # PixaBay Image Finder
 
-> React & Material UI app to find images utilizing the PixaBay API
+A modern, responsive image search application built with React. This app helps users discover and explore high-quality images using the Pixabay API.
 
-## Description
+## Features
 
-This is a React application built with Material UI that allows users to search for high-quality images using the Pixabay API. Users can enter search terms to find photos, specify the number of results per page (5, 10, 15, 30, or 50), and view the results in a clean, responsive interface. The app fetches images dynamically and displays them with relevant metadata.
+- **Image Search**: Easily search for images by entering any keyword or phrase
+- **Customizable Results**: Select the number of images to display per page (5, 10, 15, 30, or 50)
+- **Real-time Fetching**: Images are fetched dynamically using Axios for smooth performance
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **Safe Search**: All results are filtered for safe content
+- **Modern UI**: Clean, intuitive interface built with Material UI
 
-- Live demo: [Vezi aplicația aici](https://iam269.github.io/pixabay_image_finder-master)
-- Repository GitHub: [Codul sursă](https://github.com/iam269/pixabay_image_finder-master)
+## Technologies Used
 
-Register your API Key at
-[https://pixabay.com/](https://pixabay.com/)
+- React
+- Material UI for components
+- Axios for API calls
+- Pixabay API for image data
+- Create React App for build setup
+- GitHub Pages for deployment
 
-## Quick Start
+## Live Demo
+
+The application is deployed and can be viewed at:
+- **GitHub Pages**: https://iam269.github.io/pixabay_image_finder-master
+
+## Repository
+
+- **GitHub Repository**: https://github.com/iam269/pixabay_image_finder-master
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/iam269/pixabay_image_finder-master.git
+cd pixabay_image_finder-master
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+The app will open in your browser at [http://localhost:3000](http://localhost:3000).
+
+### Build for Production
 
 ```bash
-# Install dependencies
-npm install
-
-# Serve on localhost:3000
-npm start
-
-# Build for production
 npm run build
 ```
 
-## App Info
+### Deploy to GitHub Pages
 
-### Links
-[Website](https://example.com) | [GitHub](https://github.com/example)
+```bash
+npm run deploy
+```
 
-### Version
+## Usage
 
-1.0.0
+1. **Search Images**: Enter a search term in the text field
+2. **Select Amount**: Choose how many images to display using the dropdown
+3. **View Results**: Browse through the fetched images in the results section
 
-### License
+## Project Structure
 
-This project is licensed under the MIT License
+```
+src/
+├── components/
+│   ├── image-results/
+│   │   └── ImageResults.js    # Displays search results
+│   ├── navbar/
+│   │   └── NavBar.js          # Navigation component
+│   └── search/
+│       └── Search.js          # Main search functionality
+├── App.js                     # Main app component
+├── App.css                    # Global styles
+└── index.js                   # App entry point
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Built with ❤️ using React
