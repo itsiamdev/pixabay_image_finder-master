@@ -22,8 +22,7 @@ A modern, responsive image search application built with React. This app helps u
 
 ## Live Demo
 
-The application is deployed and can be viewed at:
-- **GitHub Pages**: https://iam269.github.io/pixabay_image_finder-master
+- **Alternative URL**: https://itsiamdev.github.io/pixabay_image_finder-master/
 
 ## Repository
 
